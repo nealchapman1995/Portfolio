@@ -1,43 +1,115 @@
-html{
-	margin: 0;
- 	padding: 0;
- 	height: 100%;
+	html, body{
+	    margin:0px;
+	    padding:0px;
+	}
+
+	html{
+		margin: 0;
+	 	padding: 0;
+	 	height: 100%;
+	}
+
+	body {
+	  height: 100%;
+	  width: 100%;
+	}
+
+	.navbar{
+		padding-top: 15px;
+		padding-bottom: 10px;
+		position: fixed;
+		width: 100%;
+		margin-bottom: 50px;
+		background-color: black !important;
+	}
+
+	.header{
+		background-image: url(pexels-lukas-574073.jpg);
+		height: 100%;
+	  	width: 100%;
+		background-repeat: no-repeat;
+	  	background-attachment: fixed;
+	  	background-position: center; 
+	  	background-size: cover;
+	}
+
+	.headshot{
+		border-radius: 50%;
+		height: 50%;
+		width: auto;
+		margin: 0 0 auto auto;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		border: 4px solid #665b4a;
+	}
+
+	#learnmore{
+		margin-top: 50px;
+		background-color: #9da4b0;
+		border: 1px solid #9da4b0;
+		position: relative;
+		left: 45%;
+		right: 45%;
+	}
+
+	#learnmore:hover{
+		background-color: #5e6269;
+		border: 1px solid #5e6269;
+	}
+
+	#learnmore:active{
+		border: none !important;
+	}
+
+	.title{
+		text-align: center;
+		color: black;
+		padding-top: 80px;
+		font-size: 55px;
+	}
+
+	.subtitle{
+		text-align: center;
+		color: black;
+		font-size: 55px;
+	}
+
+@media only screen and (min-width: 600px) {
+	.headshot{
+		height: 25%;
+		width: auto;
+	}
+
+	.navbar{
+		font-size: 50px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.title{
+		padding-top: 100px;
+	}
+
+	#learnmore{
+		width: 20%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
-body {
-  height: 100%;
-  width: 100%;
-}
+@media only screen and (min-width: 992px) {
+	.headshot{
+		height: 50%;
+	}
 
-.header{
-	background-image: url(pexels-lukas-574073.jpg);
-	height: 93%;
-  	width: 100%;
-	background-repeat: no-repeat;
-  	background-attachment: fixed;
-  	background-position: center; 
-  	background-size: cover;
-}
+	.navbar{
+		font-size: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
 
-.headshot{
-	border-radius: 50%;
-	height: 40%;
-	width: auto;
-	margin: 0 0 auto auto;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.title{
-	text-align: center;
-	color: black;
-	padding-top: 150px;
-	font-size: 50px;
-}
-
-.subtitle{
-	text-align: center;
-	color: black;
-	font-size: 50px;
-}
+	#learnmore{
+		width: 10%;
+	}
+} 
