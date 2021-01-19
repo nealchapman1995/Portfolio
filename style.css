@@ -1,5 +1,43 @@
+html{
+	margin: 0;
+ 	padding: 0;
+ 	height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
 .header{
 	background-image: url(pexels-lukas-574073.jpg);
-	height: 500px;
+	height: 93%;
+  	width: 100%;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center; 
+  	background-size: cover;
+}
+
+.headshot{
+	border-radius: 50%;
+	height: 40%;
 	width: auto;
+	margin: 0 0 auto auto;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.title{
+	text-align: center;
+	color: black;
+	padding-top: 150px;
+	font-size: 50px;
+}
+
+.subtitle{
+	text-align: center;
+	color: black;
+	font-size: 50px;
 }
