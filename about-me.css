@@ -3,7 +3,8 @@ html,body
     width: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    background-color: #ebebeb; 
 }
 	html{
 		margin: 0;
@@ -56,6 +57,14 @@ html,body
 	border-radius: 10px;
 }
 
+#rock{
+	margin-top: 100px;
+	height: 500px;
+	width: auto;
+	border-radius: 10px;
+	display: flex;
+}
+
 p{
 	margin-top: 100px;
 	width: 450px;
@@ -71,7 +80,15 @@ p{
 
 #bottom{
 	background-color: #ebebeb;
+}
 
+#final-row{
+	background-color: #ebebeb;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	opacity: 0;
+	transition: all linear 2.5s;
 }
 
 @media only screen and (min-width: 600px) {
@@ -96,6 +113,13 @@ p{
 	p{
 		font-size: 30px;
 	}
+
+	#final-row{
+		display: flex;
+		flex-direction: column-reverse;
+		margin-left: 250px;
+		margin-right: 200px;
+	}
 }
 
 @media only screen and (min-width: 992px) {
@@ -111,6 +135,15 @@ p{
 		justify-content: space-between;
 		margin-left: 200px;
 		margin-right: 200px;
+	}
+
+	#final-row{
+		display: flex;
+		flex-direction: row !important;
+		justify-content: space-between;
+		margin-right: 200px;
+		margin-left: 250px;
+		margin-bottom: 100px;
 	}
 
 	p{

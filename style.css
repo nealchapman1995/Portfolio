@@ -12,6 +12,7 @@
 	body {
 	  height: 100%;
 	  width: 100%;
+	  background-color: #d9d9d9;
 	}
 
 	.navbar{
@@ -21,10 +22,11 @@
 		width: 100%;
 		margin-bottom: 50px;
 		background-color: black !important;
+		z-index: 10;
 	}
 
 	.header{
-		background-image: url(pexels-lukas-574073.jpg);
+		background-image: url(background-img.jpg);
 		height: 100%;
 	  	width: 100%;
 		background-repeat: no-repeat;
