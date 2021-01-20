@@ -21,18 +21,35 @@
 	position: relative;
 	top: 250px;
 	color: white;
+	font-size: 70px;
 }
 
 #scroll{
 	position: relative;
-	top: 300px;
+	top: 240px;
 	color: white;
+	font-size: 40px;
 }
 
-.about-me{
-	background-color: black;
+#puppy{
+	margin-top: 100px;
 	height: 500px;
-	width: 100%;
+	width: auto;
+	margin-bottom: 50px;
+	border-radius: 5px;
+}
+
+p{
+	margin-top: 100px;
+	width: 450px;
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+
+#bottom{
+	background-color: #ebebeb;
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -44,6 +61,14 @@
 
 	#ireland{
 		background-position: right bottom;
+		height: 800px;
+	}
+
+	.about-me{
+		display: flex;
+		flex-direction: column;
+		margin-left: 250px;
+		margin-right: 200px;
 	}
 }
 
@@ -52,5 +77,13 @@
 		font-size: 20px;
 		padding-top: 10px;
 		padding-bottom: 10px;
+	}
+
+	.about-me{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-left: 200px;
+		margin-right: 200px;
 	}
 } 
