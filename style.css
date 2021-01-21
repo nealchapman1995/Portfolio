@@ -18,9 +18,8 @@
 	.navbar{
 		padding-top: 15px;
 		padding-bottom: 10px;
-		position: fixed;
+		position: sticky;
 		width: 100%;
-		margin-bottom: 50px;
 		background-color: black !important;
 		z-index: 10;
 	}
