@@ -12,7 +12,15 @@
 	}
 
 	#main{
-		
+		text-align: center;
+		margin-top: 50px;
+	}
+
+	#main p{
+		margin-top: 50px;
+		width: 65%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	#projects{
@@ -43,6 +51,29 @@
 		width: auto;
 		border-radius: 15px;
 	}
+
+	.btn-primary{
+		border: 1px solid #9da4b0;
+		background-color: #9da4b0;
+	}
+
+	.btn-primary:hover{
+		background-color: #8c8c8c;
+		border: 1px solid #8c8c8c;
+	}
+
+	.btn-info{
+		background-color: #707070;
+		border: 1px solid #707070;
+		color: white;
+	}
+
+	.btn-info:hover{
+		background-color: #404040;
+		border: 1px solid #404040;
+		color: white;
+	}
+
 
 @media only screen and (min-width: 600px) {
 	.navbar{
