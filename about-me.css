@@ -80,6 +80,7 @@ p{
 
 #bottom{
 	background-color: #ebebeb;
+	font-family: 'IBM Plex Sans', sans-serif;
 }
 
 #final-row{
@@ -89,6 +90,7 @@ p{
 	flex-direction: row;
 	opacity: 0;
 	transition: all linear 2.5s;
+	font-family: 'IBM Plex Sans', sans-serif;
 }
 
 @media only screen and (min-width: 600px) {

@@ -16,11 +16,16 @@
 		margin-top: 50px;
 	}
 
+	#main h1{
+		font-family: 'Roboto Slab', serif;
+	}
+
 	#main p{
 		margin-top: 50px;
 		width: 65%;
 		margin-left: auto;
 		margin-right: auto;
+		font-family: 'IBM Plex Sans', sans-serif;
 	}
 
 	#projects{
@@ -39,11 +44,11 @@
 		margin-left: 50px;
 		margin-right: 50px;
 		height: 400px;
+		font-family: 'IBM Plex Sans', sans-serif;
 	}
 
-	.btn{
-		position: relative;
-		top: 20px;
+	.card-title{
+		font-family: 'Roboto Slab', serif;
 	}
 
 	.card-img-top{
